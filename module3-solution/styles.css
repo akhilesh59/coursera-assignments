@@ -1,0 +1,133 @@
+body{
+	background-color:#FF4500;
+	font-size:17px;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+}
+/** HEADER **/
+
+
+#header-nav {
+	background-color: greenyellow;
+	border-radius:0;
+	border:0;
+}
+.our-menu {
+	color: black;
+	font-weight: bold;
+	font-size:4em;
+
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+	text-align: center;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+
+#main-content {
+	font-family: 'Indie Flower', cursive;
+	font-style: italic;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+ #item1 {
+	background-color: violet;
+	font-size: 1.3em;
+	margin: 10px auto 20px;
+}
+.chicken {
+	font-style: italic;
+	font-family: 'Jost', sans-serif;
+}
+.content1 {
+	font-family: 'Jost', sans-serif;
+	font-size: 16px;
+}
+#item2 {
+	background-color: mediumseagreen;
+	font-size: 1.3em;
+	margin: 10px auto 20px;
+}
+.beef {
+	font-style: italic;
+	font-family: 'Jost', sans-serif;
+}
+.content2 {
+	font-family: 'Jost', sans-serif;
+	font-size: 16px;
+}
+#item3 {
+	background-color: dodgerblue;
+	font-size: 1.3em;
+	margin: 10px auto 20px;
+}
+.sushi {
+	font-style: italic;
+	font-family: 'Jost', sans-serif;
+}
+.content3 {
+	font-family: 'Jost', sans-serif;
+	font-size: 16px;
+}
+
+
+
+
+@media (max-width: 767px) {
+	#header-nav {
+	background-color: greenyellow;
+	border-radius:0;
+	border:0;
+	height: 80%;
+}
+.our-menu {
+	color: black;
+	font-weight: bold;
+	font-size:2em;
+
+}
+
+.navbar-brand {
+	padding-top: 15px;
+}
+#main-content {
+	font-family: 'Indie Flower', cursive;
+	font-style: italic;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+}
+ #item1 {
+	background-color: violet;
+	font-size: 1.2em;
+	margin: 10px 10px 10px 10px;
+}
+ #item2 {
+	background-color: mediumseagreen;
+	font-size: 1.2em;
+	margin: 10px 10px 10px 10px;
+}
+ #item3 {
+	background-color: dodgerblue;
+	font-size: 1.2em;
+	margin: 10px 10px 10px 10px;
+}
+
+}
+
